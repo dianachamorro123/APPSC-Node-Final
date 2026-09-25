@@ -12,7 +12,7 @@ import notesRoutes from "./routes/notes.routes.js";
 const app = express();
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://192.168.20.68:5173",
     credentials: true,
   })
 );
